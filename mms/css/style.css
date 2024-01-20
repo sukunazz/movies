@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+header {
+  padding: 10px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  padding: 8px 15px;
+  border-radius: 5px;
+  margin: 0 5px;
+  background: red;
+}
+
+.logo {
+  color: red;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+}
+
+.group {
+  margin-bottom: 20px;
+}
+
+input:not([type="submit"]) {
+  width: 94%;
+  display: block;
+  margin-top: 8px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+button,
+.button,
+.edit,
+.delete {
+  background: red;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.auth-form {
+  width: 400px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.313);
+}
+
+.auth-form p {
+  margin: 10px 0;
+}
+
+.movies_section {
+  background-image: url("../img.jpg");
+  padding: 100px;
+  min-height: 80vh;
+}
+
+table {
+  background-color: rgba(255, 255, 255, 0.95);
+  width: 100%;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.edit {
+  background-color: blue;
+}
+
+.edit,
+.delete {
+  margin: 0 5px;
+  font-size: 13px;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+.form-edit {
+  margin: 0 auto;
+  width: 700px;
+}
+h2 {
+  margin-left: -4vh;
+}
